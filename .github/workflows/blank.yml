@@ -3,9 +3,9 @@ name: day 22 assignment
 on:
  
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
   schedule:
     - cron: '*/5 * * * *' # Runs every 5 minutes
  
